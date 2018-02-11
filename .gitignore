@@ -1,0 +1,22 @@
+# builds dir
+build/
+DerivedData/
+
+# local project and workspace settings, history etc
+*.xcodeproj/xcuserdata
+*.xcodeproj/project.xcworkspace
+*.xcodeproj/xcshareddata
+*.xcworkspace/xcuserdata
+*.xcworkspace/xcshareddata
+
+# pods
+Podfile.lock
+Pods/*
+!Pods/Pods.xcodeproj
+Pods/Pods.xcodeproj/xcuserdata
+!Pods/Headers
+Pods/Headers/*
+tmp
+
+# idea folder
+.idea
